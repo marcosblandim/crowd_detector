@@ -130,7 +130,8 @@ def detect(image, *, debug=True):
     #        print(type(b))
         cv2.rectangle(image, (round(b[0]), round(b[1])), (round(b[0]+b[2]), round(b[1]+b[3])), dist_color,0)
 
-    return has_detected, image
+    report = {}
+    return image, report
 
 def __get_output_layers(net):
     
