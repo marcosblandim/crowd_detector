@@ -33,7 +33,16 @@ pip install -r requirements.txt
 ```shell
 wget -O ./crowd_detector/yolo_detection/yolo_files/yolo.weights https://pjreddie.com/media/files/yolov3.weights
 ```
-> you can configure the software by modifing the file ./crowd_detector/config.yaml
+5. execute the main code
+```shell
+python ./crowd_detector/main.py
+```
+
+## Config
+- you can configure the software by modifing the file ./crowd_detector/config.yaml
+
+### Fields
+- reports_filename: must be a JSON
 
 ## DOING
 - gerar e salvar relatorio de cada frame em um json
