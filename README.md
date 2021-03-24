@@ -33,13 +33,13 @@ pip install -r requirements.txt
 ```shell
 wget -O ./crowd_detector/yolo_detection/yolo_files/yolo.weights https://pjreddie.com/media/files/yolov3.weights
 ```
-> you can configure the software by modifing the file ./crowd_detector/settings.yaml
+> you can configure the software by modifing the file ./crowd_detector/config.yaml
 
 ## DOING
-- melhorar/refazer/refatorar o código de detecção de aglomeração atual (fase 1)
+- gerar e salvar relatorio de cada frame em um json
+- arrumar e melhorar o crow_detector
 
 ## TODO
-- salvar também o relatório de cada frame (?)
 - começar fase 2
 - pensar na fase 3
 - implementar a captura de frames de dentro de um diretorio
