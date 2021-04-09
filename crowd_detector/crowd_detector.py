@@ -48,7 +48,7 @@ def detect_crowds(frame):
 
 
 def test():
-    frame_source = "http://208.139.200.133//mjpg/video.mjpg"
+    frame_source = "http://208.72.70.172/mjpg/1/video.mjpg"
     log_level = "debug"
     logging.basicConfig(
         level=log_level.upper(),
