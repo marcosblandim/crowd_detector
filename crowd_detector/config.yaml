@@ -1,4 +1,4 @@
-frame_source: http://158.58.130.148:80/mjpg/video.mjpg
+frame_source: http://114.35.156.187:85/webcapture.jpg?command=snap&channel=1?COUNTER
 
 number_of_frames: 210
 fetch_interval: 3
